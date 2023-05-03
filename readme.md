@@ -56,7 +56,7 @@ pub fn encrypt(iv: &[u8], key: &[u8], text: &[u8]) -> Vec<u8> {
 /// use hex::FromHexError;
 /// let iv = b"1234567890123456";
 /// let key = b"01234567890123456789012345678901";
-/// let ciphertext = [197, 221, 61, 37, 184, 139, 38, 189, 182, 53, 144, 45, 170, 182, 220, 210, 64, 155, 36, 239, 138, 38, 33, 48, 25, 101, 160, 99, 8, 24, 111, 137];
+/// let ciphertext = [202, 234, 210, 161, 130, 10, 237, 118, 76, 66, 52, 178, 12, 8, 2, 241];
 /// let plaintext = decrypt(iv, key, &ciphertext).unwrap();
 /// assert_eq!(plaintext, b"Hello, world!");
 /// ```
