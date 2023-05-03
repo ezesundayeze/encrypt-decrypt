@@ -1,9 +1,5 @@
 ## A basic encryption and decryption implementation with Rust
 
-The code is heavily documented
-
-<p>Here is the basic code</p>
-
 <p>You can clone the repo to run it.</p>
 
 ```rust
